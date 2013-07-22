@@ -1,0 +1,80 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.3  24332  2156 ?        Ss   Jul16   0:02 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Jul16   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Jul16   0:02 [ksoftirqd/0]
+root         4  0.0  0.0      0     0 ?        S    Jul16   0:00 [kworker/0:0]
+root         5  0.0  0.0      0     0 ?        S    Jul16   0:00 [kworker/u:0]
+root         6  0.0  0.0      0     0 ?        S    Jul16   0:00 [migration/0]
+root         7  0.0  0.0      0     0 ?        S    Jul16   0:03 [watchdog/0]
+root         8  0.0  0.0      0     0 ?        S<   Jul16   0:00 [cpuset]
+root         9  0.0  0.0      0     0 ?        S<   Jul16   0:00 [khelper]
+root        10  0.0  0.0      0     0 ?        S    Jul16   0:00 [kdevtmpfs]
+root        11  0.0  0.0      0     0 ?        S<   Jul16   0:00 [netns]
+root        12  0.0  0.0      0     0 ?        S    Jul16   0:00 [xenwatch]
+root        13  0.0  0.0      0     0 ?        S    Jul16   0:01 [xenbus]
+root        14  0.0  0.0      0     0 ?        S    Jul16   0:02 [sync_supers]
+root        15  0.0  0.0      0     0 ?        S    Jul16   0:00 [bdi-default]
+root        16  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kintegrityd]
+root        17  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kblockd]
+root        18  0.0  0.0      0     0 ?        S<   Jul16   0:00 [ata_sff]
+root        19  0.0  0.0      0     0 ?        S    Jul16   0:00 [khubd]
+root        20  0.0  0.0      0     0 ?        S<   Jul16   0:00 [md]
+root        21  0.0  0.0      0     0 ?        S    Jul16   2:56 [kworker/0:1]
+root        23  0.0  0.0      0     0 ?        S    Jul16   0:00 [kworker/u:1]
+root        24  0.0  0.0      0     0 ?        S    Jul16   0:00 [khungtaskd]
+root        25  0.0  0.0      0     0 ?        S    Jul16   0:00 [kswapd0]
+root        26  0.0  0.0      0     0 ?        SN   Jul16   0:00 [ksmd]
+root        27  0.0  0.0      0     0 ?        S    Jul16   0:00 [fsnotify_mark]
+root        28  0.0  0.0      0     0 ?        S    Jul16   0:00 [ecryptfs-kthrea]
+root        29  0.0  0.0      0     0 ?        S<   Jul16   0:00 [crypto]
+root        37  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kthrotld]
+root        38  0.0  0.0      0     0 ?        S    Jul16   0:00 [khvcd]
+root        57  0.0  0.0      0     0 ?        S<   Jul16   0:00 [devfreq_wq]
+root       153  0.0  0.0      0     0 ?        S    Jul16   0:00 [jbd2/xvda1-8]
+root       154  0.0  0.0      0     0 ?        S<   Jul16   0:00 [ext4-dio-unwrit]
+root       261  0.0  0.0  17232   588 ?        S    Jul16   0:00 upstart-udev-bridge --daemon
+root       263  0.0  0.1  21584  1164 ?        Ss   Jul16   0:00 /sbin/udevd --daemon
+root       302  0.0  0.1  21456   636 ?        S    Jul16   0:00 /sbin/udevd --daemon
+root       303  0.0  0.1  21456   640 ?        S    Jul16   0:00 /sbin/udevd --daemon
+root       374  0.0  0.0  15188   384 ?        S    Jul16   0:00 upstart-socket-bridge --daemon
+root       547  0.0  0.1   7264  1016 ?        Ss   Jul16   0:00 dhclient3 -e IF_METRIC=100 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -1 eth0
+root       621  0.0  0.4  49956  2868 ?        Ss   Jul16   0:15 /usr/sbin/sshd -D
+102        632  0.0  0.1  23816   968 ?        Ss   Jul16   0:00 dbus-daemon --system --fork --activation=upstart
+syslog     635  0.0  0.5 253912  3140 ?        Sl   Jul16   0:43 rsyslogd -c5
+root       701  0.0  0.1  14504   916 tty4     Ss+  Jul16   0:00 /sbin/getty -8 38400 tty4
+root       706  0.0  0.1  14504   920 tty5     Ss+  Jul16   0:00 /sbin/getty -8 38400 tty5
+root       712  0.0  0.1  14504   916 tty2     Ss+  Jul16   0:00 /sbin/getty -8 38400 tty2
+root       713  0.0  0.1  14504   916 tty3     Ss+  Jul16   0:00 /sbin/getty -8 38400 tty3
+root       718  0.0  0.1  14504   920 tty6     Ss+  Jul16   0:00 /sbin/getty -8 38400 tty6
+root       730  0.0  0.1   4328   644 ?        Ss   Jul16   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+daemon     731  0.0  0.0  16908   364 ?        Ss   Jul16   0:00 atd
+root       732  0.0  0.1  19112   900 ?        Ss   Jul16   0:00 cron
+root       766  0.0  0.1  14504   916 tty1     Ss+  Jul16   0:00 /sbin/getty -8 38400 tty1
+whoopsie   768  0.0  0.4 187596  3008 ?        Ssl  Jul16   0:00 whoopsie
+root      6410  0.0  0.5  73356  3544 ?        Ss   17:12   0:00 sshd: ubuntu [priv] 
+ubuntu    6528  0.0  0.4  74024  2440 ?        S    17:12   0:01 sshd: ubuntu@pts/0  
+ubuntu    6530  0.0  0.7  22176  4736 pts/0    Ss   17:12   0:00 -bash
+ubuntu    6674  0.0  0.1  24016  1104 pts/0    S+   17:50   0:00 screen
+ubuntu    6675  1.9  1.6  32820 10080 ?        Ss   17:50   2:25 SCREEN
+ubuntu    6676  0.0  0.7  20588  4516 pts/3    Ss+  17:50   0:00 /bin/bash
+ubuntu    6677  0.0  0.7  20588  4604 pts/4    Ss+  17:50   0:00 /bin/bash
+ubuntu    6862  0.0  0.7  20588  4572 pts/5    Ss   17:50   0:00 /bin/bash
+ubuntu    6955  0.0  2.7 661444 16824 pts/5    Sl+  17:50   0:00 nodejs web.js
+root      7004  0.0  0.0      0     0 ?        S    18:33   0:00 [flush-202:1]
+ubuntu    8746  0.0  0.7  20592  4616 pts/6    Ss+  19:32   0:00 /bin/bash
+root      8926  0.0  0.5  73356  3540 ?        Ss   19:47   0:00 sshd: ubuntu [priv] 
+ubuntu    9016  0.0  0.2  73356  1672 ?        S    19:47   0:00 sshd: ubuntu@pts/7  
+ubuntu    9017  0.0  0.7  22176  4732 pts/7    Ss   19:47   0:00 -bash
+ubuntu    9146  0.0  0.1  24016  1108 pts/7    S+   19:49   0:00 screen
+ubuntu    9147  0.0  1.2  30484  7688 ?        Ss   19:49   0:00 SCREEN
+ubuntu    9148  0.0  0.7  20592  4604 pts/8    Ss   19:49   0:00 /bin/bash
+ubuntu    9151  0.1  0.7  20580  4600 pts/9    Ss   19:49   0:00 /bin/bash
+ubuntu    9307  0.8  0.7  20588  4584 pts/10   Ss+  19:49   0:04 /bin/bash
+ubuntu    9478  1.5  3.1 211204 18908 pts/9    S+   19:50   0:06 emacs index.html
+ubuntu    9535  0.0  0.1  15280  1132 pts/8    R+   19:57   0:00 ps aux
+ubuntu    9536  0.0  0.1  10892   764 pts/8    S+   19:57   0:00 less
+ubuntu   19360  0.0  0.8  28040  5000 ?        Ss   Jul19   0:00 SCREEN
+ubuntu   19361  0.0  0.7  20588  4512 pts/1    Ss+  Jul19   0:00 /bin/bash
+ubuntu   19362  0.0  0.7  20588  4588 pts/2    Ss   Jul19   0:00 /bin/bash
+ubuntu   19560  0.0  2.7 211220 16332 pts/2    S+   Jul19   0:00 emacs index.html
+ubuntu   31164  0.0  4.7 669308 28588 ?        Ssl  Jul21   0:02 node /usr/lib/node_modules/scripted/commands/scripted.js false myfile.js
