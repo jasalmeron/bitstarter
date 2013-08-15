@@ -135,9 +135,9 @@
           <a class="brand" href="#">FitGlass</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#contact" class="active">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -160,102 +160,14 @@
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">FitGlass is a startup for provide personal quantifiers gadgets and apps to enhance <a href="http://www.google.com/glass/start/">Google Glass</a> experience.</div>
-      </div>
-      <div class="row-fluid pitch">
-        <div class="span5 offset1 video">
-          <a href="#"><img class="img-polaroid" src="fitness-app.jpg" alt="first perspective view of a very crowded marathon where an overlay info message with a 138 heart rate and the message 'in zone' appears at top-right corner"></a>
-	</div>
-
-        <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
-        <div class="span5 actions">
-          <div class="row-fluid">
-	  <div class="span8 offset2">
-            <div class="statistics">
-              <div class="span4">
-                <!-- linediv-l and linediv-r give dividing lines that look
-                different in horizontal and vertical layouts, illustrating
-                media queries. -->
-                <div class="linediv-l">
-                <h3>1000</h3> <p>backers</p>
-                </div>
-              </div>
-              <div class="span4">
-                <div class="linediv-c">
-                  <h3>$6000</h3> <p>of $10,000</p>
-                </div>
-              </div>
-              <div class="span4">
-                <div class="linediv-r">
-                <h3>10</h3> <p>days left</p>
-                </div>
-              </div>
-            </div>
-          </div>
-	  <div class="row-fluid">
-          <div class="span10 offset1">
-            <!-- Bootstrap progress bar -->
-            <!-- http://twitter.github.io/bootstrap/components.html#progress -->
-            <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 0%;"></div>
-              <div class="bar bar-warning" style="width: 100%;"></div>
-            </div>
-          </div>
-	  </div>
-	  <div class="row-fluid">
-          <div class="span6 offset3 order">
-            <!-- Standard Bootstrap button. -->
-            <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-            <a class="coinbase-button" data-code="bb8ac035ee8ebbcbbe745c0e8e224374" data-button-style="custom_small" href="https://coinbase.com/checkouts/bb8ac035ee8ebbcbbe745c0e8e224374">Pay With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
-          </div>
-	  </div>
-	  <div class="row-fluid">
-          <div class="span8 offset2 social">
-            <!-- AddThis Button BEGIN -->
-	    <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-	      <a class="addthis_button_preferred_1"></a>
-	      <a class="addthis_button_preferred_2"></a>
-	      <a class="addthis_button_preferred_3"></a>
-	      <a class="addthis_button_preferred_4"></a>
-	      <a class="addthis_button_compact"></a>
-	      <a class="addthis_counter addthis_bubble_style"></a>
+          <div class="pull-left">
+	    We are happy to answer any questions you have or provide you with an estimate.
+	    Just send us your question to the next email account:
+	    <i class="icon-envelope">&nbsp;&nbsp;&nbsp;&nbsp;info@fitglass.mybit&nbsp;</i>
 	    </div>
-	    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-	    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-520284e01ab6f30b"></script>
-	    <!-- AddThis Button END -->	        
-	  </div> 
-          </div>
-        </div>
-	</div>  
+	</div>
       </div>
-
-      <!-- Beyond this part the marketing copy begins. -->
-      <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
-      <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
-      <!-- http://placehold.it -->
-      <div class="row-fluid section1">
-        <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="google_glass_running.png" alt="a first persectivy view of a person running in a park with an overlay image showing the following stats:  miles runned, calories and miles, also a navigation map is displayed.">
-        </div>
-        <div class="span5 copy">
-          <p>
-            With FitGlass you can monitor your speed, heart rate, and route while practicing sports like running, cycling and many others. It push your trainning experience to a new stadium of knowledge with graphics, comparatives and social sharing with your favorite social network, including google+, twitter and facebook among others.       
-   
-          </p>
-        </div>
-      </div>
-
-      <div class="row-fluid section2">
-        <div class="span5 offset1 copy copy-right">
-          <p>
-            Additionally, because of Bluetooth connectivity of our sport gadgets you can track and review your activity in other devices such as Android and Iphone phones or Android and Ipad tablets. We strong believe that with our products you can obtain a better real-time information and later rich and visual analysis of your trainning or competitions.  
-         </p>
-        </div>
-        <div class="span5 asset">
-          <img class="img-polaroid" src="dezeen_Google-unveils-Google-Glass-video-preview_6.jpg" alt="a picture with all different colors of Google Glass models">
-        </div>
-      </div>
-
+     
       <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
       <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
       <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
